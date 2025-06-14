@@ -1,0 +1,90 @@
+VINAY PENTA
+
++91 9773341838
+vinaypenta@gmail.com
+vinay.penta@iiml.org
+
+Education
+Year Degree Institute
+2018 - 2020 Master’s in Business Administration IIML, Lucknow
+2012 - 2016 B. Tech in Electronics Engineering VJTI, Mumbai
+
+Experience
+Product Manager 2 - 01/2023 to Present
+TRUECALLER INTERNATIONAL LLP
+Achievements
+• Took the Number Intelligence product from 0 to 12 paid BFSI customers as a PM within a year.
+• Received a 4 out of 5 performance rating for the year 2025 as a Product Manager.
+• Improved name-match accuracy by 12% within 2 weeks, unblocking the first 2 critical deals.
+• Increased fill rates for key parameters 75% to 95%, improving risk model performance by 3%.
+• Reduced POC turnaround time from 4 weeks to 1 week, optimizing the sales pipeline.
+• Previously a Product Manager for Truecaller SDK, powering 1B+ annual successful verifications.
+• Promoted to Product Manager 2 in April 2024 based on annual performance.
+• Led a cross-functional team of 5 to successfully launch TC OAuth, now handling 1M+ requests/day.
+• Doubled Daily Verification Requests (DVRs) for the Truecaller verification SDK in 16 months.
+• Overcame bandwidth constraints to launch the banner MVP, with over 3M impressions/month.
+• Implemented support for multiple fingerprints, reducing go-live TAT by 80% with 33% adoption.
+• Improved age targeting by 10%, potentially optimizing ad revenue by $1 million per year.
+Roles and Responsibilities
+• Currently the sole Product Manager for the Truecaller Number Intelligence B2B SaaS API solution.
+• Formulated and implemented a strategy to achieve product-market fit.
+• Led over 40 proof-of-concepts (POCs), successfully converting 12 into commercial engagements.
+• Defined and prioritized requirements for the Risk Intelligence Platform, expanding product use
+cases and enhancing user experience through a web application.
+• Led customer discussions in discovery phases, product walkthroughs, and POC evaluations.
+• Previously assumed end-to-end responsibility for the Truecaller SDK, from the product side.
+• Collaborate closely with cross-functional teams, including Customer Success, Marketing, and
+Sales, to drive product success and meet business unit objectives effectively.
+• Leading requirements gathering for the product from defining problems and solutions, creating
+user flows, drafting wireframes, and writing user stories and acceptance criteria.
+• Leading a 9-member cross-functional team of devs, QAs, and designers to deliver the product.
+• Managing and prioritizing backlog and contributing to the overall roadmap of the product.
+• Design and execute user research initiatives to optimize product features and increase conversion
+rates, utilizing data-driven insights to inform product decisions and improvements.
+• Spearheaded the development of the Truecaller SDK's roadmap for the year 2024.
+• Optimized customer acquisition pipeline through integrations with Clevertap and Zoho.
+• Mentored 2 Product Managers to scale up in their roles effectively and facilitated their
+professional development.
+
+Experience (Contd..)
+Product Manager - 12/2021 to 01/2023
+Tesseract Imaging Ltd. (RIL Owned)
+• Sole Product Manager for the JioGlass mobile application for Android Smartphones.
+• Received the Kick-starter award for exceptional work in spearheading multiple initiatives.
+• Received the Best Performing Team Award for FY2022-2023 Quarter 1 in Townhall meet.
+• Drafted requirements for 4 Jio XR (Extended-Reality) applications for JioGlass.
+• Spearheading the launch website and customer care for the Go-To-Market of the product.
+• Strategizing separation of the product in two separate products and its multi-version compatibility.
+• Solutioned for a multi-app content search feature in the JioGlass XR Platform.
+• Defined 8+ success metrics for product features and to monitor the performance.
+• Supporting customer trials and research to identify customer needs, and pain points.
+• Providing product demos to business stakeholders and capturing feedback for improvement.
+Manager - Product Owner - 09/2020 to 12/2021
+Hexaware Technologies Pvt Ltd
+
+• Sole product owner of multi-brand hotel booking and loyalty mobile application for a Singapore-
+based hospitality group with 14 brands across 30 countries.
+
+• Delivered 2 revenue streams for the client in the form of voucher and points purchase feature.
+• Defined user stories, acceptance criteria, and functional specifications for the product.
+• Retained by the Customer Interactive BU for exceptional performance in the mini-project.
+• Defined requirements of an e-commerce platform of a global luxury apparel wholesaler.
+• Conducted competitor analysis of online B2B luxury showrooms for road-mapping the platform.
+• Defined the offerings of Hexaware CXT Interactive to respond to 8 RFP/RFIs and 6 client pitches.
+Applications Developer 1 - 08/2016 to 05/2018
+Oracle Financial Services Software
+• Developed a POC, and delivered a scalable digital mobile banking solution now used by 60+ banks.
+• Enabled the product QR code-based payment and ML-based spend categorizer feature.
+• Ensured GDPR and accessibility compliance in the product for US and European Clients.
+• Road-mapped and developed a chatbot in the product which performs 10+ banking transactions.
+• Received LOA from the Vice President, the Sr Product Manager, and the Senior Consultant.
+Academic Achievements
+• Secured an overall 99.15 %ile in XAT among 90,000+ applicants.
+• Positioned at 99.8 %ile in MHT-CET (Engineering Entrance) among 200k students.
+• Awarded Certificate of Merit for being 1st/400 students in XII Board Examinations in Jr College.
+• Conferred scholarship worth ₹90k by GOI for consistent performance in engineering
+Extra-Curricular
+• Lauded in Hindustan Times Education for creating a device that teaches Braille Script to the blind.
+• Organized a Rubik's Cube competition with 13 events, 180+ participants, and a footfall of 1000+.
+• Led a team of 20 to make Rubik's cube artwork with 5000+ cubes featured in HT shot of the day.
+• Effectively targeted the appropriate audience to increase footfall by ~15% for the college festival.

@@ -1,0 +1,5 @@
+__pycache__/
+credentials/service_account.json
+credentials/token.json
+credentials/openai_key.txt
+*.pyc
