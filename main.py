@@ -36,16 +36,15 @@ scope = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-service_account_json_str = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+USE_ENV_CREDS = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON") is not None
 
-if service_account_json_str:
-    # Load from environment variable (as JSON string)
-    service_account_info = json.loads(service_account_json_str)
-    creds = ServiceAccountCredentials.from_json_keyfile_dict(service_account_info, scope)
+if USE_ENV_CREDS:
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(
+        json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"]), scope
+    )
 else:
-    # Fallback: load from local file
     creds = ServiceAccountCredentials.from_json_keyfile_name(
-        'credentials/service_account.json', scope
+        "credentials/service_account.json", scope
     )
 
 gc = gspread.authorize(creds)
