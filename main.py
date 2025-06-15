@@ -5,6 +5,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import openai
 import json
+import os
 
 # ---------- CONFIGURATION ----------
 SPREADSHEET_ID = '15KbEsO8LU4sqwtIHCAvtUS4vJY37iwol8WJd46FUCRE'
@@ -14,12 +15,39 @@ PROFILE_PATH = "profile.txt"
 with open(PROFILE_PATH, "r", encoding="utf-8") as f:
     PROFILE_TEXT = f.read().strip()
 
-# Read OpenAI API key from credentials/openai_key.txt (never commit this file)
-with open("credentials/openai_key.txt") as kf:
-    openai.api_key = kf.read().strip()
+# First, try to read from environment variable
+api_key = os.environ.get("OPENAI_API_KEY")
 
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name('credentials/service_account.json', scope)
+if not api_key:
+    # If not found in env, fall back to local file (for local dev)
+    try:
+        with open("credentials/openai_key.txt") as kf:
+            api_key = kf.read().strip()
+    except FileNotFoundError:
+        raise RuntimeError(
+            "OpenAI API key not found in environment variable or credentials/openai_key.txt"
+        )
+
+openai.api_key = api_key
+
+
+scope = [
+    "https://spreadsheets.google.com/feeds",
+    "https://www.googleapis.com/auth/drive"
+]
+
+service_account_json_str = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+
+if service_account_json_str:
+    # Load from environment variable (as JSON string)
+    service_account_info = json.loads(service_account_json_str)
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(service_account_info, scope)
+else:
+    # Fallback: load from local file
+    creds = ServiceAccountCredentials.from_json_keyfile_name(
+        'credentials/service_account.json', scope
+    )
+
 gc = gspread.authorize(creds)
 worksheet = gc.open_by_key(SPREADSHEET_ID).worksheet(SHEET_NAME)
 
